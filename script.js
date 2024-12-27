@@ -1,5 +1,5 @@
 const prompt = require('prompt-sync')();
-
+console.log("Bienvenido a el juego ");
 // Array para guardar numeros ingresados
 let numbers = []; 
 
@@ -40,4 +40,3 @@ let menorAMayor = numbers.sort(function(a, b){return a - b});
 let mayoraMenor = numbers.sort(function(a, b){return b - a});
     console.log("Numeros de mayor a menor: ", mayoraMenor);
 
-    
